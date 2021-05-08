@@ -1,0 +1,97 @@
+header {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: rgb(4, 19, 39);
+}
+
+* {
+  box-sizing: border-box;
+  background-color: rgb(181, 203, 232);
+}
+
+#users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#users > div {
+  border: 1px solid black;
+  padding: 5px;
+  min-width: 200px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#users > div,
+h2 {
+  background-color: rgb(229, 234, 242);
+}
+
+#tabs {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper div {
+  width: 25%;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+#content {
+  /* min-height: 300px; */
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#info_content,
+#todo_content,
+#posts_content,
+#albums_content {
+  padding: 16px 10px;
+}
+
+#info,
+#info_content,
+#info h3,
+#info_content h4 {
+  background-color: rgb(229, 234, 242);
+}
+
+#todo,
+#todo h3,
+#todo_content,
+#todo_content ul,
+#todo_content li {
+  background-color: rgb(204, 194, 249);
+}
+
+#posts,
+#posts_content,
+#posts h3,
+#posts_content p,
+#posts_content h3 {
+  background-color: rgb(240, 238, 222);
+}
+
+#albums,
+#albums_content,
+#albums h3,
+#albums_content h3 {
+  background-color: rgb(237, 222, 210);
+}

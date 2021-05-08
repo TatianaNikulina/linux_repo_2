@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini-Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header>User Data</header>
+  <body>
+    <section id="users"></section>
+
+    <section id="tabs" class="hidden">
+      <div id="tabsWrapper" class="wrapper">
+        <div id="info" class="tab1"><h3>Info</h3></div>
+        <div id="todo" class="tab2"><h3>ToDo</h3></div>
+        <div id="posts" class="tab3"><h3>Posts</h3></div>
+        <div id="albums" class="tab4"><h3>Albums</h3></div>
+      </div>
+
+      <div id="content">
+        <div id="info_content"></div>
+        <div id="todo_content" class="hidden"><ul id="todo_ul"></ul></div>
+        <div id="posts_content" class="hidden"></div>
+        <div id="albums_content" class="hidden"></div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
