@@ -6,7 +6,7 @@ const getUsers = async () => {
   renderUsers(data);
   usersListener();
 };
-
+// ncklsndc
 const renderUsers = (users) => {
   const sect = document.querySelector("#users");
   users.forEach((user) => {
